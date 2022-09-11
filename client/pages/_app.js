@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
   })
 
   const client = new ApolloClient({
-    uri: "https://statuesque-biscuit-574e10.netlify.app/graphql",
+    uri: "http://localhost:2000/graphql",
     cache: cache
   })
 
