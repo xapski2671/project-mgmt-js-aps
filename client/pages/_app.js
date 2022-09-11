@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
   })
 
   const client = new ApolloClient({
-    uri: "http://localhost:2000/graphql",
+    uri: "https://project-mgmt-js.onrender.com/graphql",
     cache: cache
   })
 
