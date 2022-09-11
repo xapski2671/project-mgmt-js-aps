@@ -4,7 +4,8 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "dev": "nodemon server/index.js",
+    "build": "cd client && yarn && yarn build && yarn next export"
   },
   "license": "MIT",
   "dependencies": {
